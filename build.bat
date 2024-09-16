@@ -4,7 +4,7 @@
 @pause
 @python.exe -m pip install --upgrade pip
 @pip install yt-dlp pyinstaller
-@pyinstaller --clean --onefile --icon=".\ytdlpbuild\Favicon.ico" .\ytdlpbuild\yt.py
+@pyinstaller --clean --onefile .\ytdlpbuild\yt.py
 @del yt.spec
 @echo y|rmdir /s build
 @copy .\dist\yt.exe .\yt.exe
