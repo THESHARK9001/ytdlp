@@ -1,2 +1,0 @@
-@del yt.exe
-@pause
