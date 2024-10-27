@@ -4,7 +4,7 @@
 @pause
 @python.exe -m pip install --upgrade pip
 @pip install yt-dlp pyinstaller
-@pyinstaller --clean --onefile --noconsole .\ytdlpbuild\yt-gui.py
+@pyinstaller --clean --onefile --noconsole .\ytdlpbuild\yt-gui.pyw
 @del yt-gui.spec
 @echo y|rmdir /s build
 @copy .\dist\yt-gui.exe .\yt-gui.exe
