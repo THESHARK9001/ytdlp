@@ -7,6 +7,6 @@
 @pyinstaller --clean --onefile --noconsole .\ytdlpbuild\yt-gui.py
 @del yt-gui.spec
 @echo y|rmdir /s build
-@copy .\dist\yt.exe .\yt-gui.exe
+@copy .\dist\yt-gui.exe .\yt-gui.exe
 @echo y|rmdir /s dist
 @pause
