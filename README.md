@@ -1,6 +1,6 @@
 How to build:
   Download python 3.11 if not already
-  run build-cli.bat for a command-line interface or run build-gui.bat for a graphical user interface
+  run build.bat and select either 1 or 2 for either a CLI or GUI
   open the exe that has been made
 
   LINUX USERS:
